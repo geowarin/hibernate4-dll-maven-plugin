@@ -6,7 +6,7 @@ A maven plugin which generates ddl using hibernate 4
 Usage
 =====
 
-`mvn install`
+Run `mvn install` in the plugin directory
 
 Add these lines to ~/.m2/settings.xml :
 
@@ -34,3 +34,5 @@ Add the plugin to your project :
 			<exportFile>${project.build.directory}/sql/export.sql</exportFile>
 		</configuration>
 	</plugin>
+	
+Run `mvn hibernate4-dll:export` and voilà !
